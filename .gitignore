@@ -1,0 +1,4 @@
+backend/.env
+backend/node_modules/
+database/*.sqlite
+npm-debug.log*

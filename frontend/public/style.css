@@ -1,0 +1,31 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Segoe UI,Roboto,Arial,sans-serif;background:#f3f5f9;color:#1f2937}
+header{background:#1e3a8a;color:#fff;padding:16px 28px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+header h1{margin:0;font-size:1.4rem}
+.badge{background:#ffffff22;padding:4px 12px;border-radius:99px;font-size:.8rem}
+main{max-width:1200px;margin:24px auto;padding:0 16px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-bottom:20px}
+.card{background:#fff;border-radius:10px;padding:16px;text-align:center;box-shadow:0 1px 4px #0001}
+.card h3{margin:0;font-size:1.8rem;color:#1e3a8a}.card p{margin:4px 0 0;color:#6b7280}
+.toolbar{display:flex;gap:12px;margin-bottom:16px}
+.toolbar input{flex:1;padding:10px 14px;border:1px solid #d1d5db;border-radius:8px;font-size:1rem}
+.btn{padding:9px 16px;border:1px solid #d1d5db;background:#fff;border-radius:8px;cursor:pointer;font-size:.95rem}
+.btn.primary{background:#2563eb;color:#fff;border-color:#2563eb}
+.btn.danger{background:#dc2626;color:#fff;border-color:#dc2626}
+.btn.small{padding:4px 10px;font-size:.8rem}
+.table-wrap{background:#fff;border-radius:10px;box-shadow:0 1px 4px #0001;overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:900px}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid #eef0f4;font-size:.9rem}
+th{background:#eef2ff;color:#1e3a8a}
+tr:hover td{background:#f9fafb}
+.empty{padding:24px;text-align:center;color:#6b7280}
+.modal{position:fixed;inset:0;background:#0006;display:flex;align-items:center;justify-content:center;padding:16px;z-index:10}
+.modal[hidden]{display:none}
+.modal-box{background:#fff;border-radius:12px;padding:24px;width:100%;max-width:640px;max-height:92vh;overflow:auto}
+.modal-box h2{margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+label{display:flex;flex-direction:column;font-size:.85rem;gap:4px;color:#374151}
+input,select{padding:8px 10px;border:1px solid #d1d5db;border-radius:6px;font-size:.95rem}
+.actions{display:flex;justify-content:flex-end;gap:10px;margin-top:18px}
+.error{background:#fee2e2;color:#991b1b;padding:8px 12px;border-radius:6px;margin-bottom:12px;font-size:.9rem}
+footer{text-align:center;color:#6b7280;padding:20px;font-size:.85rem}
